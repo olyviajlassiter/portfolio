@@ -9,7 +9,7 @@ body {
 }
 /* ADDS STYLE TO HEAVER AND NAVIGATION BAR */
 header {
-    background-color: #a5a371;
+    background-color: #b2b083;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -52,7 +52,7 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 nav {
-    background-color: #a5a371;
+    background-color: #b2b083;
     padding: 15px;
 }
 
@@ -66,12 +66,17 @@ nav {
     padding: 25px;
 }
 
-/* ADDS STYLE TO ABOUT ME SECTION 
+/* ADDS STYLE TO HERO SECTION */
 .hero img {
-    height: 150px;
+    height: 100%;
     width: 100%;
-} */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+} 
 
+/* ADDS STYLE TO ALL HEADERS */
 .header {
     font-size: 40px;
     color: #969162;
@@ -81,6 +86,7 @@ nav {
     padding: 10px;
 }
 
+/* ADDS STYLE TO ABOUT ME SECTION */
 .about-bio p {
     margin: auto;
     width: 75%;
@@ -93,15 +99,7 @@ nav {
     background-color: #ebece5;
 }
 
-.flex-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 25px;
-    
-}
-
+/* ADDS STYLE TO CONTACT ME SECTION*/
 .contact-info a {
     color: #969162;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -110,18 +108,22 @@ nav {
     font-size: 18px;
 }
 
+/* ADDS FLEX STYLING TO CONTACT ME LINKS*/
+.flex-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px;
+    
+}
 
-
-
-
-
+/* ADDS STYLE TO FOOTER SECTION */
 footer {
     background-color: #a5a371;
     width: 100%;
     padding: 15px;
-   
 }
-
 footer h2 {
     font-size: 20px;
     margin: 0;
@@ -130,4 +132,47 @@ footer h2 {
     color: #ebece5;
 }
 
+/* ADDS STYLE TO RUN BUDDY IMAGE */
+.sample article {
+    padding: 20px;
+    background: #b2b083;
+    color: #ebece5;
+    font-size: 25px;
+    text-align: left;
+    margin: auto;
+    width: 900px;
+}
+.sample a img {
+    width: 50%;
+}
 
+
+
+/* ADDS STYLE & FLEX TO SAMPLE IMAGES */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+}
+.sample {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.sample header {
+    padding: 20px;
+    background: #b2b083;
+    color: #ebece5;
+    font-size: 25px;
+}
+.sample img {
+    width: 100%;
+    min-width: 400px;
+}
