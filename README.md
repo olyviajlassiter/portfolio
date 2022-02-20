@@ -23,3 +23,4 @@ THEN I am presented with a responsive layout that adapts to my viewport<br>
 
 https://olyviajlassiter.github.io/portfolio/
 
+![screencapture-127-0-0-1-5500-index-html-2022-02-19-22_47_10](https://user-images.githubusercontent.com/97003486/154828840-adbed36a-344c-4f40-ab7c-75f8517a4826.png)
